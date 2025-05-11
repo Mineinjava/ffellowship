@@ -1,2 +1,2 @@
-# ffelowship
-Frequency Felowship: Examining Radio Wave Propagation from a High Altitude Balloon=
+# ffellowship
+Frequency Fellowship: Examining Radio Wave Propagation from a High Altitude Balloon=

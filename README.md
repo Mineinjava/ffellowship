@@ -57,6 +57,12 @@ This PCB is designed around the Raspberry Pi Pico due to its rigorous
 testing and ease of integration. It also features mainly 1206 components
 to aid in manual reflow soldering of the PCB.
 
+See the dPicoTracker/ directory for more info.
+
+<img width="1220" alt="image" src="https://github.com/user-attachments/assets/7f470492-ae92-42a6-9955-464c4acf6c3a" />
+<img width="442" alt="image" src="https://github.com/user-attachments/assets/3d54dc78-25ee-414b-87be-a32b8e5429ea" />
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/0fcfec73-e802-4580-a60f-e8776f611511" />
+
 ## 2. Use of PLL:
 
 This subproject uses the Raspberry Pi Pico to generate RF signals,
@@ -72,6 +78,11 @@ to a HT, which will be stripped down to save weight.
 The PCB consists of a voltage regulator to power the Pi and a 555 timer
 circuit to ensure that transmissions are time limited in time (in case
 of a software crash).
+
+<img width="1302" alt="image" src="https://github.com/user-attachments/assets/36d1860b-98f9-4235-a175-2ab4391e6281" />
+<img width="619" alt="image" src="https://github.com/user-attachments/assets/dac293cd-b379-4ed7-8f10-603090a213a1" />
+<img width="617" alt="image" src="https://github.com/user-attachments/assets/eae42010-35e1-4933-8691-403493354298" />
+
 
 ## Integration:
 

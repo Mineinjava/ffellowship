@@ -1,5 +1,5 @@
 # ffellowship
-Frequency Fellowship: Examining Radio Wave Propagation from a High Altitude Balloon=
+Frequency Fellowship: Examining Radio Wave Propagation from a High Altitude Balloon
 ---
 
 This is a project for Hack Club's [Apex](https://apex.hackclub.com),

@@ -7289,6 +7289,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "v1.0"
+		(at 60 62 0)
+		(layer "B.SilkS")
+		(uuid "f116f837-2fc1-4c5e-b61f-ebabc3f4c211")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "MIC"
 		(at 62.55 90.5 90)
 		(layer "B.SilkS")

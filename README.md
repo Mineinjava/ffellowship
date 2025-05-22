@@ -76,7 +76,7 @@ This subproject uses a Raspberry Pi Zero W and a custom PCB to connect
 to a HT, which will be stripped down to save weight. 
 
 The PCB consists of a voltage regulator to power the Pi and a 555 timer
-circuit to ensure that transmissions are time limited in time (in case
+circuit to ensure that transmissions are limited in time (in case
 of a software crash).
 
 <img width="1302" alt="image" src="https://github.com/user-attachments/assets/36d1860b-98f9-4235-a175-2ab4391e6281" />

@@ -30,7 +30,7 @@ This tracker uses the MS5351M IC to generate RF.
 | 25  | R5                               | D_1206_3216Metric                                 | 1        | 200kΩ               |      C114937      |
 
 Additionally:
-1 GPS antenna
-1 2m antenna
-1 20m antenna
-1 Raspberry Pi Pico
+- 1x GPS antenna
+- 1x 2m antenna
+- 1x 20m antenna
+- 1x Raspberry Pi Pico

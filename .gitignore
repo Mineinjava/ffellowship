@@ -15,7 +15,7 @@
 *.kicad_sch-bak
 *.kicad_prl
 *.sch-bak
-*~
+*~*
 _autosave-*
 *.tmp
 *-save.pro
@@ -38,10 +38,11 @@ fp-info-cache
 *.xml
 *.csv
 *.tsv
-
+!*BOM.csv
 # Misc
 *.log
 *.raw
 .svg2shenzhen-cache
 
 *production
+*.zip

@@ -15,13 +15,14 @@
 *.kicad_sch-bak
 *.kicad_prl
 *.sch-bak
-*~*
+*~
 _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
 /build
+*#auto_saved_files#
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -37,9 +38,11 @@ fp-info-cache
 *.xml
 *.csv
 *.tsv
-
+!*BOM.csv
 # Misc
 *.log
 *.raw
 .svg2shenzhen-cache
+
+*production
 *.zip

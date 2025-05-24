@@ -19,6 +19,6 @@ This tracker uses fractional PLL to generate RF on the 20m band.
 | 14  | R5             | D_1206_3216Metric                 | 1        | 200kΩ               |   C114937        |
 
 Additionally:
-1 GPS antenna
-1 20m antenna
-1 Raspberry Pi Pico
+- 1 GPS antenna
+- 1 20m antenna
+- 1 Raspberry Pi Pico

@@ -20,10 +20,10 @@ HT.
 | 16  | L1                   | L_1206_3216Metric                   | 1        | 4.7µH             |    C13585        |
 
 Additionally:
-1 Raspberry Pi Zero
-1 GPS Antenna
-1 micro usb sound card
-1 TRRS 3.5mm cable
-1 TRS 3.5mm cable
-1 TRS 2.5mm cable
-1 external radio
+- 1 Raspberry Pi Zero
+- 1 GPS Antenna
+- 1 micro usb sound card
+- 1 TRRS 3.5mm cable
+- 1 TRS 3.5mm cable
+- 1 TRS 2.5mm cable
+- 1 external radio

@@ -811,7 +811,7 @@
 			)
 		)
 		(property "Value" "MMBT2222A"
-			(at 0 2.4 90)
+			(at -1.01 2.87 90)
 			(layer "F.Fab")
 			(uuid "1a9bdc3e-0880-434a-b677-c891a1d28c18")
 			(effects
@@ -1242,8 +1242,8 @@
 			(uuid "e38c8b57-2e5e-45b3-86e9-58c07143d1a8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
+			(at -0.2 0.01 90)
+			(layer "F.SilkS")
 			(uuid "59837de1-3643-4f53-a995-dd60037c6484")
 			(effects
 				(font
@@ -3956,7 +3956,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "AE3"
-			(at 0 -2.33 0)
+			(at -0.07 -4.005 0)
 			(layer "F.SilkS")
 			(uuid "53ef07cb-cdef-4fe5-a032-976bfe9aec13")
 			(effects
@@ -6941,6 +6941,18 @@
 		(layer "Edge.Cuts")
 		(uuid "6bcf6094-7fa4-4c8f-933e-c6e2797a3b66")
 	)
+	(gr_text "GND"
+		(at 43.68 65.88 0)
+		(layer "F.SilkS")
+		(uuid "087a2c26-6b97-496e-96c0-2c9b08b327e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "G"
 		(at 47.45 53.1 0)
 		(layer "F.SilkS")
@@ -6954,9 +6966,57 @@
 		)
 	)
 	(gr_text "SP"
+		(at 43.97 60.6 0)
+		(layer "F.SilkS")
+		(uuid "1900a5f5-31cb-4e2e-997b-3701a1534a1c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SP"
 		(at 47.35 47.95 0)
 		(layer "F.SilkS")
 		(uuid "253c2d1c-0a40-46ec-8b9d-2d26d563c8b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GPS"
+		(at 61.54 63.12 0)
+		(layer "F.SilkS")
+		(uuid "27a1f4b4-869c-42d2-bba1-1466795fd02f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MIC"
+		(at 43.84 63.41 0)
+		(layer "F.SilkS")
+		(uuid "33eb9579-ca11-4dd5-93b4-0cd223d0b621")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Q1"
+		(at 45.52 86.37 0)
+		(layer "F.SilkS")
+		(uuid "3e7cbb2d-97d9-49aa-be1f-ed14fe681766")
 		(effects
 			(font
 				(size 1 1)
@@ -7053,6 +7113,18 @@
 		(at 62.55 93.5 90)
 		(layer "F.SilkS")
 		(uuid "b7056470-785f-4f15-afac-3618454979cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 61.46 70.61 0)
+		(layer "F.SilkS")
+		(uuid "c3f07e7b-5087-4182-9fc2-e57ae43a2c69")
 		(effects
 			(font
 				(size 1 1)
@@ -7205,6 +7277,30 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "SP"
+		(at 39.6 60.9 270)
+		(layer "B.SilkS")
+		(uuid "2f94c534-01c2-426d-8b92-5c441b564ed7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GPS"
+		(at 64.64 63.09 0)
+		(layer "B.SilkS")
+		(uuid "3202cfcd-a938-43b6-b448-a487e8bbc938")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "Designed for Apex 2025\nMarcus Kauffman KN6UYL\nJoshua Truman\nHudson Hilal"
 		(at 60.1 74.75 0)
 		(layer "B.SilkS")
@@ -7229,6 +7325,42 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "GND"
+		(at 64.59 70.61 0)
+		(layer "B.SilkS")
+		(uuid "483073a5-bc2e-480f-80ab-f77cf7408c61")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 55.5 49.63 0)
+		(layer "B.SilkS")
+		(uuid "4841ff7f-c09a-44d0-a500-d6eb95f50909")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 39.51 67.04 270)
+		(layer "B.SilkS")
+		(uuid "53a8e119-6754-406c-9ab0-dfd9be227c7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "G"
 		(at 48.7 53.05 0)
 		(layer "B.SilkS")
@@ -7245,6 +7377,30 @@
 		(at 60.25 60.25 0)
 		(layer "B.SilkS")
 		(uuid "6f470efb-d360-46bc-8e42-ec1899407473")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "VBATT"
+		(at 61.17 50.56 0)
+		(layer "B.SilkS")
+		(uuid "7088c2c2-1d56-4808-afb8-f7364ee25ae2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "5v"
+		(at 51.81 49.64 0)
+		(layer "B.SilkS")
+		(uuid "75c20442-36c5-4046-88ff-9f986b285d45")
 		(effects
 			(font
 				(size 1 1)
@@ -7278,9 +7434,33 @@
 		)
 	)
 	(gr_text "MIC"
+		(at 44.05 64.18 270)
+		(layer "B.SilkS")
+		(uuid "968aa691-b487-4a0a-a197-d42c77e54161")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "MIC"
 		(at 49.9 55.679 0)
 		(layer "B.SilkS")
 		(uuid "bede403d-bf7f-4af7-8b03-8b953df604bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "GND"
+		(at 61.41 47.63 0)
+		(layer "B.SilkS")
+		(uuid "e5847dd3-737a-443f-953d-bec9361370df")
 		(effects
 			(font
 				(size 1 1)

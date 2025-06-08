@@ -59,16 +59,22 @@ to aid in manual reflow soldering of the PCB.
 
 See the dPicoTracker/ directory for more info.
 
-<img width="1220" alt="image" src="https://github.com/user-attachments/assets/7f470492-ae92-42a6-9955-464c4acf6c3a" />
-<img width="442" alt="image" src="https://github.com/user-attachments/assets/3d54dc78-25ee-414b-87be-a32b8e5429ea" />
-<img width="450" alt="image" src="https://github.com/user-attachments/assets/0fcfec73-e802-4580-a60f-e8776f611511" />
+<img width="45%" alt="image" src="https://github.com/user-attachments/assets/7f470492-ae92-42a6-9955-464c4acf6c3a" />
+<img width="15%" alt="image" src="https://github.com/user-attachments/assets/3d54dc78-25ee-414b-87be-a32b8e5429ea" />
+<img width="15%" alt="image" src="https://github.com/user-attachments/assets/0fcfec73-e802-4580-a60f-e8776f611511" />
 
 ## 2. Use of PLL:
 
 This subproject uses the Raspberry Pi Pico to generate RF signals,
 *without the use of a dedicated radio/chip*. It is by far the simplest
-design and also features a GPS which is essential for correcting for the
-oscillator drift.
+design and features a power supervisor, optional low-pass filter, 
+battery measurement circuitry, as well as a GPS which is essential 
+for correcting oscillator drift.
+
+<img width="45%" alt="image" src="https://github.com/user-attachments/assets/f9456a09-8f7e-4147-b86d-2dbddf85e924" />
+<img width="25%" alt="image" src="https://github.com/user-attachments/assets/fd3d784c-5ae2-43be-bc79-20a70b61c0f0" />
+<img width="25%" alt="image" src="https://github.com/user-attachments/assets/05025c67-159f-4369-ba2f-c38484b891e7" />
+
 
 ## 3. Use of a Dedicated HT Radio.
 
@@ -79,9 +85,9 @@ The PCB consists of a voltage regulator to power the Pi and a 555 timer
 circuit to ensure that transmissions are limited in time (in case
 of a software crash).
 
-<img width="1302" alt="image" src="https://github.com/user-attachments/assets/36d1860b-98f9-4235-a175-2ab4391e6281" />
-<img width="619" alt="image" src="https://github.com/user-attachments/assets/dac293cd-b379-4ed7-8f10-603090a213a1" />
-<img width="617" alt="image" src="https://github.com/user-attachments/assets/eae42010-35e1-4933-8691-403493354298" />
+<img width="45%" alt="image" src="https://github.com/user-attachments/assets/36d1860b-98f9-4235-a175-2ab4391e6281" />
+<img width="25%" alt="image" src="https://github.com/user-attachments/assets/dac293cd-b379-4ed7-8f10-603090a213a1" />
+<img width="25%" alt="image" src="https://github.com/user-attachments/assets/eae42010-35e1-4933-8691-403493354298" />
 
 
 ## Integration:

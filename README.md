@@ -34,6 +34,12 @@ specifically:
     difference in quality and therefore propagation?**
 - How do different antenna designs affect propagation.
 
+Due to customs issues, we were only able to test the PLL tracker 
+with three antenna wavelengths. Two of the frequencies had issues 
+(unresolved ATM), so we instead analyzed the effect of height on 
+radio wave propagation.
+
+
 As suggested above, this project can easily be divided into three
 "sub-projects":
 
